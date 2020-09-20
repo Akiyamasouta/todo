@@ -1,0 +1,36 @@
+
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+{% if object %}
+
+
+
+
+
+{% else %}
+
+
+
+
+{% endif %}
+
+
+
+    {% csrf_token %}
+
+
+        {{ form.as_table }}
+
+
+
+
+
+
+
+
+
+{%endblock%}
